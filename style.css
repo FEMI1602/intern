@@ -118,12 +118,12 @@ body {
 .list-ic.vertical li span {
   margin: 1.4em 0;
 }
-.list-ic.vertical li::before {
+/* .list-ic.vertical li::before {
   top: -35px;
   left: 13px;
   width: 0.2em;
   height: 4em;
-}
+} */
 .list-ic li:first-child::before {
   display: none;
 }

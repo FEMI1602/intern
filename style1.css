@@ -233,15 +233,32 @@
     height: 60px;
     width: 60px;
   }
+
+  .footer{
+   width: 100%;
+   height: 400px;
+    background-color: darkslategray;
+  }
+  .foot-text{
+    text-align: center;
+    align-content: center;
+  }
   @media screen and (min-width: 600px) {
-    div.example {
+    div.about {
       font-size: 80px;
     }
   }
+
   
   @media screen and (max-width: 600px) {
-    div.example {
+    div.about {
       font-size: 30px;
     }
   }
-  </style
+
+  @media screen and (min-width :900px){
+    div.about-me-info{
+      width: 400px
+
+    }
+  }
