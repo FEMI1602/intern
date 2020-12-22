@@ -183,13 +183,8 @@
   .skills-info{
     font-size: 40px;
     color: #bcbcbc;
-    max-width: 800px;
-    position: relative;
-    top: 900px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    margin-bottom: 50px;
+  
+    
   }
   .skills-info ul li{
     font-weight: 500;
