@@ -29,7 +29,7 @@
   }
   .image{
     padding-left: 7%;
-    width: 250px;
+    width: 260px;
     height: 200px;
   }
   .text1{
@@ -39,10 +39,17 @@
   }
   .text2{
     padding-left: 3%;  
-    font-size: 25px;
+    font-size: 20px
   }
 
   .footer{
     background-color: darkslategray;
     text-align: center;
+  }
+
+  @media (max-width: 1080px) {
+    text2{
+      font-size: 20px;
+    }
+
   }
